@@ -7,7 +7,7 @@ const Home = ({posts}) => {
       {posts.length ? (
         <Feed posts={posts}/>
       ):(
-        <p style={{marginTop:"2rem"}}> Error </p>
+        <p style={{marginTop:"2rem"}}> No Posts Found </p>
       )}
     </main>
   )
